@@ -1,0 +1,32 @@
+.hello_html {
+    width: 50%;
+    height: auto;
+    background-color: rgb(255, 32, 95);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid rgb(62, 255, 32);;
+}
+.blue {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.green {
+    width: 50%;
+    height: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.gopa {
+
+}
+.sisa {
+ 
+}
