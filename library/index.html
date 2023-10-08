@@ -8,52 +8,66 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header">
-        <h1 class="header_title">Brooklyn Public Library</h1>
-
-        <div class="nav_container">
-            <nav class="header_navigation">
-                <ul class="navigation">
-                    <li>About</li>
-                    <li>Favorites</li>
-                    <li>Coffe shop</li>
-                    <li>Contacts</li>
-                    <li>Library Card</li>
-                </ul>
-            </nav>
+    <div class="body_wrapper">
+        <header class="header">
+            <h1 class="header_title">Brooklyn Public Library</h1>
     
-            <div class="header_button">
-              <img class="icon_profile" src="./img/svg/icon_profile.svg" alt="icon profile">
-            </div>  
-        </div>         
-    </header>
-
-    <div class="welcom">
-        <img src="./img/welcome.png" alt="welcom">
-    </div>
-
-    <section class="tools">
-        <div class="about">
-            <h2>About</h2>
-            <p>____</p>
-            <p>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </p>
-
-        </div>
-    </section>
-
-    <div class="layout-3-column">
-        <div class="tools">
-            <img src="./img/image-1.png" alt="image 1.png">
-            <img src="./img/image-2.png" alt="image 2.png">
-            <img src="./img/image-3.png" alt="image 3.png">
-        </div>
-    </div>
-
-    <section class="Faforites">
+            <div class="nav_container">
+                <nav class="header_navigation">
+                    <ul class="navigation">
+                        <li class="link">
+                            <a href="#about">About</a>   
+                        </li>
+                        <li class="link">
+                            <a href="#favorites">Favorites</a>                    
+                        </li>
+                        <li class="link">
+                            <a href="#cofee_shop">Coffee shop</a>
+                           </li>
+                        <li class="link">
+                            <a href="#contacts">Contacts</a>
+                          </li>
+                        <li class="link">
+                            <a href="#library_card">Library Card</a>
+                            </li>
+                    </ul>
+                </nav>
+        
+                <div class="header_button">
+                  <img class="icon_profile" src="./img/svg/icon_profile.svg" alt="icon profile">
+                </div>  
+            </div>         
+        </header>
     
+        <section class="welcom">
+            <img src="./img/welcome.png" alt="welcom">
+            <p class="text_welcome">Welcome <br>
+                to the Brooklyn <br> Library</p>
+        </section>
+    
+        <section class="tools" id="about">
+            <div class="about">
+                <h2>About</h2>
+                <p>____</p>
+                <p>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </p>
+    
+            </div>
+        </section>
+    
+        <div class="layout-3-column">
+            <div class="tools">
+                <img src="./img/image-1.png" alt="image 1.png">
+                <img src="./img/image-2.png" alt="image 2.png">
+                <img src="./img/image-3.png" alt="image 3.png">
+            </div>
+        </div>
+    
+        <section class="Faforites" id="favorites">
+        
             <h2>Faforites</h2>
             <div class="line"></div>
             <p>Pick favorites of season</p>
+            
             <form class="circle">
                 <label>
                     <input type="radio" name="Winter" value="one">  
@@ -64,70 +78,71 @@
                 </label>
                 <br>
                 <label>
-                   <input type="radio" name="Summer" value="three">
+                    <input type="radio" name="Summer" value="three">
                 </label>
                 <br>
                 <label>
                     <input type="radio" name="Autumn">   
                 </label>
             </form>
-
-        <div class="book_contents">
-            <p>Staff Picks</p>
-            <div class="line"></div>
-             <p>The Book Eaters
-                By Sunyi Dean</p>
-            <p>An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous mind-eater son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance, and a strong, complex protagonist. Not for the faint of heart.</p>
-            <img src="./img/book-1.png" alt="book-1.png">
-            <div class="button_favorites">
-                <button>Buy</button>
-            </div>                
-        </div>
-
-        <div class="book_contents">
-            <p>Staff Picks</p>
-            <div class="line"></div>
-            <p>Cackle
-                By Rachel Harrison</p>
-            <p>Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? Look no further than here - where a woman recovering from a breakup moves to a quaint town in upstate New York and befriends a beautiful witch.</p>
-            <img src="./img/book-2.png" alt="book-2.png">
-            <div class="button_favorites">
-                <button>Buy</button>
-            </div>                
-        </div>
-
-        <div class="book_contents">
-            <p>Staff Picks</p>
-            <div class="line"></div>
-            <p>Dante: Poet of the Secular World
-                By Erich Auerbach</p>
-            <p>Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general, arguing for Dante's uniqueness as one who raised the individual and his drama of soul into something of divine significance—an inspired introduction to Dante's main themes.</p>
-            <img src="./img/book-3.png" alt="book-3.png">
-            <div class="button_favorites">
-                <button>Buy</button>
-            </div>                
-        </div>
-
-        <div class="book_contents">
-            <p>Staff Picks</p>
-            <div class="line"></div>
-            <p>The Last Queen
-                By Clive Irving</p>
-            <p>A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.</p>
-            <img src="./img/book-4.png" alt="book-4.png">
-            <div class="button_favorites">
-                <button>Buy</button>
-            </div>                
-        </div>
-
-        <section class="Coffee shop">
+    
+            <div class="book_contents">
+                <p>Staff Picks</p>
+                <div class="line"></div>
+                 <p>The Book Eaters
+                    By Sunyi Dean</p>
+                <p>An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous mind-eater son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance, and a strong, complex protagonist. Not for the faint of heart.</p>
+                <img src="./img/book-1.png" alt="book-1.png">
+                <div class="button_favorites">
+                    <button>Buy</button>
+                </div>                
+            </div>
+    
+            <div class="book_contents">
+                <p>Staff Picks</p>
+                <div class="line"></div>
+                <p>Cackle
+                    By Rachel Harrison</p>
+                <p>Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? Look no further than here - where a woman recovering from a breakup moves to a quaint town in upstate New York and befriends a beautiful witch.</p>
+                <img src="./img/book-2.png" alt="book-2.png">
+                <div class="button_favorites">
+                    <button>Buy</button>
+                </div>                
+            </div>
+    
+            <div class="book_contents">
+                <p>Staff Picks</p>
+                <div class="line"></div>
+                <p>Dante: Poet of the Secular World
+                    By Erich Auerbach</p>
+                <p>Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general, arguing for Dante's uniqueness as one who raised the individual and his drama of soul into something of divine significance—an inspired introduction to Dante's main themes.</p>
+                <img src="./img/book-3.png" alt="book-3.png">
+                <div class="button_favorites">
+                    <button>Buy</button>
+                </div>                
+            </div>
+    
+            <div class="book_contents">
+                <p>Staff Picks</p>
+                <div class="line"></div>
+                <p>The Last Queen
+                    By Clive Irving</p>
+                <p>A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.</p>
+                <img src="./img/book-4.png" alt="book-4.png">
+                <div class="button_favorites">
+                    <button>Buy</button>
+                </div>                
+            </div>
+        </section>
+    
+        <section class="Coffee shop" id="cofee_shop">
             <h2>Coffee shop</h2>
             <div class="line"></div>
             <p>In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation. 
                 you can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts from bakery.</p>
         </section>
 
-        <section class="Contakts">
+        <section class="Contacts" id="contacts">
             <div class="wraper">
                 <h2>Our Contacts</h2>
                 <div class="line"></div>
@@ -148,7 +163,7 @@
             </div>
         </section>
 
-        <section class="digital-cards">
+        <section class="digital-cards" id="library_card">
             <div class="wrapper">
                 <h2>Digital Library Cards</h2>
                 <div class="line"></div>
@@ -181,33 +196,9 @@
             
 
             </div>
-        </section>
-
-           
-        
-
-
+        </section>     
     
-
-
-        
-           
-                          
-        </div>
-
-    </section>
-    
-
-   
-      
-
-    
-
-
-
-
- 
-
+    </div>
 
     
 </body>
