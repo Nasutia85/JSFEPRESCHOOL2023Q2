@@ -16,24 +16,33 @@
   src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-html {
-    overflow: hidden;    
-
-    box-sizing: border-box;
-    font-size: 62.5%; /* =10px =1rem */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  scroll-behavior: smooth;
 }
 
-body {
-    overflow: hidden;
-    
-    font-family: 'Forum', 'Inter', sans-serif;
+html {  
+  overflow-x: hidden;    
+  box-sizing: border-box;
+  font-size: 62.5%; /* =10px =1rem */
+  background: rgb(146, 142, 142);
 }
 
-*, 
-*::before, 
-*::after {
-    box-sizing: inherit;    
-}  
+body {  
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Forum', 'Inter', sans-serif;
+}
+
+
+
+.body_wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
 .header {
     width: 144rem;
@@ -43,7 +52,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 .header_title {
@@ -65,8 +73,12 @@ body {
     justify-content: space-between;
 }
 
+.header_navigation {
+  margin-right: 4rem;
+}
+
 .navigation {
-  width: 584px;
+  width: 600px;
   height: 50px;
   display: inline-flex;
   align-items: flex-start;
@@ -88,6 +100,17 @@ li {
   cursor: pointer;
 }
 
+.link a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+a:hover {
+  color: #BB945F;
+  transition: 0.3s;
+  text-decoration: underline;
+}
+
 .header_button {  
   display: flex;
   align-items: center;
@@ -99,6 +122,29 @@ li {
   cursor: pointer;  
 }
   
+.welcom {
+  position: relative;
+  width: 1440px;
+  height: 600px;
+
+}
+
+.text_welcome {
+  position: absolute;
+  top: 255px;
+  left: 120px;
+  color: #ffff;
+  color: #FFF;
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 125% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  
+}
 
 
   
