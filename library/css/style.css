@@ -612,7 +612,7 @@ padding-left: 20px;
   align-items: flex-start;
   gap: 40px;
   width: 438px;
-  height: 520px;
+  height: 520px;  
 }
 
 .coffe__title {
@@ -639,7 +639,7 @@ padding-left: 20px;
   font-weight: 400;
   line-height: 40px; /* 200% */
   letter-spacing: 2px;
-  text-transform: capitalize;  
+  text-transform: capitalize; 
 }
 
 .name__item {
@@ -652,11 +652,199 @@ padding-left: 20px;
   background: #BB945F;;
 }
 
+
 .desserts__menu {
   width: 482px;
-  height: 520px;
-  background-color: #5050a5;
+  height: 520px;  
+  display: flex;  
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 40px;
+}  
+
+.desserts__title {
+  color: #BB945F;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 100% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
 }
+
+.menu__item-des {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 55px;  
+  width: 462px;
+
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.name__item-des {
+  width: 232px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;  
+}
+
+.price__item {
+  color: #000;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.contacts__container {
+  width: 1440px;
+  height: 575px;  
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.layout-2-column { 
+  width: 1400px;
+  height: 414px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text__container {
+ 
+ 
+  width: 503px;
+  height: 380px;
+}
+
+.contacts__text {
+  color: #000;
+  
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.phone-info{
+  margin-bottom: 60px;
+
+  color: #000;
+  
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.senior-staff {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.please__call {
+  margin-bottom: 20px;
+}
+
+.phone__call {
+  width: 503px;
+  height: 40px;
+  color: #000;
+
+  color: #000;
+  font-family: Inter;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;  
+  margin-bottom: 20px;
+}
+
+.text__call{  
+  margin-bottom: 40px;
+  background-color: aquamarine;
+  margin-bottom: 20px;
+  
+}
+
+.senior__staff-title {
+  width: 138px;
+  height: 40px;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  background-color: bisque;
+ 
+}
+
+.staff__text {
+  width: 351px;
+  height: 40px;
+  color: #000;
+  text-align: start;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize; 
+}
+
+
+
+
+
+
+
 
 
 
